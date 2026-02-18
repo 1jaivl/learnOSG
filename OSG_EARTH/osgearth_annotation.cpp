@@ -57,7 +57,7 @@ int usage(char **argv)
 
 //------------------------------------------------------------------
 
-int main(int argc, char **argv)
+int osgearth_annotation_demo(int argc, char **argv)
 {
     osgDB::Registry::instance()->getDataFilePathList().push_back("F:\\program\\learnOSG");
 
